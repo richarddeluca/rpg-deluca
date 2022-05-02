@@ -1,3 +1,13 @@
+:root {
+  --green: #2d663a;
+  --dark-green: #1a3b22;
+  --light-green: #83b95f;
+  --yellow: #eecd3b;
+  --dark-yellow: #c09443;
+  --gray: #cec492;
+
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +23,16 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media(max-width: 1080px) {
+  html {
+    font-size: (15/16) *100%;
+  }
+}
+
+@media(max-width: 720px) {
+  html {
+    font-size: percentage(14/16);
+  }
 }
