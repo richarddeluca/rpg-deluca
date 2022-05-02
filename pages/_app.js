@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import AOS from 'aos'
 import { useEffect } from 'react'
 

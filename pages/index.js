@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import 'aos/dist/aos.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -11,81 +12,632 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <main className={styles.main}>
+      <main className={styles.main}>
         <div className={styles.title}>
           <div className={styles.bloco}>
 
             <h1>Catiamamba</h1>
-            <p>RPG <span className='destaque'>Jaguareté: O Encontro</span></p>
-            <p>Aventura <span className='destaque'>O Resgate das Araucárias</span></p>
-            <p>Jogado por <span className='destaque'>Richard Deluca</span></p>
-            <p>Narrado por <span className='destaque'>Mingo</span></p>
+            <p >RPG <span className='destaque'>Jaguareté: O Encontro</span></p>
+            <p >Aventura <span className='destaque'>O Resgate das Araucárias</span></p>
+            <p >Jogado por <span className='destaque'>Richard Deluca</span></p>
+            <p >Narrado por <span text='Domenico' className='destaque'>Mingo</span></p>
 
+          </div>
+          <Image alt='imagem de um pássaro vermelho' src='/redcardinal.svg' width={150} height={150} />
+        </div>
+        < div className={styles.content}>
+          <div className={styles.bloco1}>
+
+            <div className={styles.marcador} >
+              <p data-aos-offset="200" data-aos="fade-up"
+                data-aos-duration="3000">Lá no alto das árvores ela podia ser vista. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Sua cor parecia a de um <span data-aos-delay="1000" data-aos='fade' data-aos-duration="2000" className={styles.sangue}>por do sol sangrento</span>. </p>
+            </div>
+
+            <div className={styles.marcador} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Nenhuma flecha à alcançava. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Nenhuma mão humana a segurava. </p>
+            </div>
+
+            <div className={styles.marcador} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Não porque era mais rápida ou mais forte que os outros bichos, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> mas porque todos os povos a respeitavam. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Sabiam de sua importância. </p>
+            </div>
+
+            <div className={styles.marcador} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Se estivessem em região desconhecida </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> e não soubessem onde achar árvore frutífera, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> seguiam tal pássaro. </p>
+            </div>
+
+            <div className={styles.marcador2} >
+              <p data-aos="fade"
+                data-aos-delay="2000" data-aos-duration="2000"> Era <span className={styles.strong}> Catiamamba</span>. </p>
+            </div>
+
+            <div className={styles.marcador} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Diziam os mais antigos, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Catiamamba foi criança.</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Desobedecendo os mais velhos, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">saia sozinha para a mata </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> à procura de doces frutas. </p>
+            </div>
+
+            <div className={styles.marcador} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Um dia a criança se perdeu e, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">ninguém sabe como, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> se tornou esse bonito pássaro, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">entre tantos cortejado. </p>
+            </div>
+
+            <div className={styles.marcador2} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> É por tantos protegido da caça </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">por indicar onde mora a colheita boa. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> Mas não se enganem: </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">por vezes o pássaro, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> por inveja ou outra coisa qualquer,</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> faz as pessoas se perderem na mata </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> para nunca mais se acharem. </p>
+            </div>
+
+
+
+            <div className={styles.marcador} >
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Catiamamba é isso: </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">uma criança, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">um ser espiritual, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">aquele pássaro ali empoleirado </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e aquele outro voando. </p>
+            </div>
+            <div className={styles.marcador} >
+              <p data-aos="fade"
+                data-aos-delay="2000" data-aos-duration="2000">Catiamamba eu sou</p>
+            </div>
+
+          </div>
+
+          <div className={styles.bloco2}>
+
+            <div className={styles.marcador} ><p data-aos="fade-up"
+              data-aos-duration="3000">Numa noite, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">enquanto dormia numa árvore, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                algo esquisitão aconteceu. </p>
+            </div>
+
+            <div className={styles.marcador} ><p data-aos="fade-up"
+              data-aos-duration="3000" className={styles.light_blue}>Luzes azuis rodopiando surgiram </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                e reuniram pessoas diferentes, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                curiosas para vê-las. </p>
+            </div>
+
+            <div className={styles.marcador} ><p data-aos="fade-up"
+              data-aos-duration="3000">
+              Ali se juntavam para solucionar um terrível mistério, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                o sumiço dos pinhões, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                principal alimento dos povos da região </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                elemento de ritos e cerimônias.</p>
+            </div>
+
+            <div className={styles.marcador} ><p data-aos="fade-up"
+              data-aos-duration="3000">A luz se desfez, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                deixando um segredo a cada um. </p>
+            </div>
+
+            <div className={styles.marcador} ><p data-aos="fade-up"
+              data-aos-duration="3000">
+              Em volta da fogueira </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">sentamos nós, espectadores</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                compartilhando um pouco de cada. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                Potira, Kumi, Iberê, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                Naru, Nena, Dorni, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                Karakarapu, Oliver, Wilson. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                Nos unimos por um bem maior.</p>
+              {/* <Image className={styles.centered} alt='campfire' src='/campfire.svg' width={500} height={500} /> */}
+            </div>
+          </div>
+          <div className={styles.bloco3}>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000" id={styles.zip} className={styles.centered}>ZIP ZIP ZAP</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Uma flecha cantava aos ventos</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">nos guiando pela mata. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">ZIP para prosseguir junto às coisas naturais, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">ZAP para desviar das rochas </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e da gente estrangeira.</p>
+            </div>
+
+          </div>
+          <div className={styles.bloco4}>
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Em frente à Garganta </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">do Diabo nos encontramos. </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Paciente e vigilante do lado de fora, </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">vi meus companheiros se entregarem à digestão </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">para depois serem escarrados </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">humilhados e machucados.</p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Com os olhos de mil pássaros, </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">vi armadilha de gente, </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">cabana de branco </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">a que chamam capela. </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Lá fomos ao </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">feito padre </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">bondoso e curandeiro </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">O homem que ali estava </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">se revelou predador. </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Escapamos mais sabidos.</p>
+          </div>
+          <div className={styles.bloco5}>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Em nossa busca, </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">aos espíritos ancestrais </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> recorremos. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Sempre NÓS </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Nunca EU</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Ritual poderoso usamos</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">de baixo da água adentramos</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Unidos, no mundo do sono </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">mergulhamos. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Para prosseguir, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">a palavra <span className={styles.nao}>não</span> </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">se apagou de nossa boca. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">De <span className={styles.onca}>onça</span> a <span className={styles.urso}>urso</span> </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">encontramos também duas crianças kalapalo, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">por nós então libertas. </p>
+            </div>
+
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Saindo do fundo </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">do rio feito névoa, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">nós seguimos nosso rumo</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000"> e elas o delas.</p>
+            </div>
+          </div>
+          <div className={styles.bloco6}>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Os pinhões ausentes </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e a fome batia. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Um macaco caçado </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">por misericórdia pediu. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Nos mostrou dois bebês </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">em troca de sua vida. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Eram filhas duma Mulher </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">que já não tinha </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">povo nem nome </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e que engravidou dum branco </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e de Jaguareté.</p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Por nosso grupo foram educadas </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e rapidamente cresciam. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Contei a elas que </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">ao encararem escolhas difíceis </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">deveriam seguir o que </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">o sopro interior lhes dizia; </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">que meu caminho era encontrar </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">um lar que já não existia; </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">que minha missão era, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">como iangrê e maracá, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">cuidar da floresta e do espírito. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Era minha escolha</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e meu destino</p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Cada história, cada escolha, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">cada ensinamento dado,</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                cada exemplo feito,</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                as fazia amadurecer.</p>
+            </div>
+          </div>
+          <div className={styles.bloco7}>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Encontramos Jaguareté. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Em presença dele </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e com o sumiço de tantos pássaros vermelhos, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">virei osso, pele e carne. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">garras com mãos,</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                pés no chão,</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                tamanho de criança, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                força de adulto,</p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">
+                quase gente</p>
+
+
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Dele tomamos uma bebida </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">que nos deu velocidade. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Procuramos a Mulher.</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Na garganta do diabo a encontramos. </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Ela nos revelou tudo: </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">a bebida de jaguareté </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">era sangue venenoso; </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">fugiu do jaguareté, uma criatura grosseira; </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">fugiu de seu povo por divergir de sua cultura; </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Abominava o ritual da menina moça;  </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">sequestrou os pinhões por causa disso. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Ou esse rito acabava ou </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">o mundo acabava sem pinhões;</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Seguimos. </p>
+            </div>
+          </div>
+          <div className={styles.bloco8}>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Encontramos sapos que nos vacinaram </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">contra o veneno da onça. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Seus dilemas éticos nutriram as duas garotas. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Maduras, elas decidem rejeitar o ritual da menina moça </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e fundar um novo povo só de mulheres </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">que,  </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">similar aos jesuítas solitários,  </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">não iam se casar.</p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">As mulheres se separaram dos homens </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e geraram seu próprio povo, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">o que gerou revolta </p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e rebuliço. </p>
+            </div>
+            <div className={styles.marcador}>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Sangue estava para rolar, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">mas a conversa falou mais alto. </p>
+            </div>
+            <div className={styles.marcador}>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Um acordo foi feito. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">As mulheres não voltariam para suas tribos </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">nem engravidariam. </p>
+            </div>
+            <div className={styles.marcador}>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Tal como as rãs, os bebês nasceriam em árvores, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">assegurando a descendência dos povos. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">A árvore escolhida, araucária. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Os homens seriam guiados para ela no tempo certo </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e depositariam as suas sementes. </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Um ritual em conjunto </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">tempos depois se seguiria, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e do corte da árvore muitas crianças nasceriam. </p>
+            </div>
+            <div className={styles.marcador}>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">Me comprometi a guiar os homens </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">às árvores no tempo certo.</p>
+            </div>
+            <div className={styles.marcador}>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">A Mulher, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">aquela Mulher, </p>
+
+              <p data-aos="fade-up"
+                data-aos-duration="3000">se agradou com a solução</p>
+              <p data-aos="fade-up"
+                data-aos-duration="3000">e libertou os pinhões. </p>
+            </div>
+          </div>
+          <div className={styles.bloco9}>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Uma gralha azul surgiu </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">para anunciar a boa nova. </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">Eu finalmente pude voltar </p>
+
+            <p data-aos="fade-up"
+              data-aos-duration="3000">às copas das árvores. </p>
+
+            <Image data-aos="fade"
+              data-aos-delay="2000" data-aos-duration="3000" alt='pássaro vermelho' src='/red-bird.svg' width={200} height={200} />
+            <Image data-aos="fade"
+              data-aos-delay="4000" data-aos-duration="3000" id={styles.blue_bird} alt='pássaro azul' src='/blue-bird.svg' width={240} height={240} />
+            {/* <Image data-aos="fade"
+              data-aos-delay="2000" data-aos-duration="3000" id={styles.araucaria} alt='araucária' src='/araucaria.svg' width={800} height={800} /> */}
           </div>
         </div>
-        <div className={styles.content}>
-          <div data-aos="fade-up"
-            data-aos-duration="3000" className={styles.bloco}>
-            <p>Lá no alto das árvores ela podia ser vista. </p>
-            <p>Sua cor parecia a de um por do sol sangrento. </p>
-            <p>Nenhuma flecha à alcançava. </p>
-            <p>Nenhuma mão humana a segurava. </p>
-            <p data-aos="fade-up"
-              data-aos-duration="3000"> Não porque era mais rápida ou mais forte que os outros bichos, </p>
-            <p data-aos="fade-up"
-              data-aos-duration="3000"> mas porque todos os povos a respeitavam. </p>
-            <p> Sabiam de sua importância. </p>
-            <p> Se estivessem em região desconhecida e não soubessem onde achar árvore frutífera, </p>
-            <p> seguiam tal pássaro. Era catiamamba. </p>
-            <p> Diziam os mais antigos que catiamamba foi uma criança</p>
-            <p> que, desobedecendo os mais velhos, saia sozinha </p>
-            <p> para a mata fechada à procura de frutas doces. </p>
-            <p> Um dia a criança se perdeu e, ninguém sabe como, </p>
-            <p> se tornou esse pássaro bonito. </p>
-            <p> É por tantos protegido da caça para indicar onde mora a colheita boa. </p>
-            <p> Mas não se enganem: por vezes o pássaro </p>
-            <p> por inveja ou outra coisa qualquer</p>
-            <p> faz as pessoas se perderem na mata para nunca mais se acharem. </p>
-            <p > Seu principal alimento é o pinhão.</p>
-          </div>
-          <div >
-            <p>Catiamamba é isso: </p>
-            <p>uma criança, </p>
-            <p>um ser espiritual, </p>
-            <p>aquele pássaro ali empoleirado </p>
-            <p>e aquele outro voando. </p>
-            <p>Catiamamba eu sou</p>
-          </div>
 
-          <div><p>Um dia, enquanto dormia numa árvore, algo esquisitão aconteceu. Luzes azuis rodopiando surgiram e reuniram pessoas diferentes, curiosas. Ali se juntavam para solucionar um terrível mistério, o sumiço dos pinhões, principal alimento dos povos da região e parte importante de cerimônias.</p></div>
-
-          <div><p>A luz se desfez, deixando um segredo a cada um. Em volta da fogueira se sentaram os espectadores e compartilharam um pouco de si. Potira, Kumi, Iberê, Naru, Nena, Dorni, Karakarapu Oliver, Wilson e Catiamamba se uniam por um bem maior.</p></div>
-
-          <div><p>zip zip zap. Uma flecha cantava aos ventos nos guiando pela mata. Zip para prosseguir junto às coisas naturais, zap para desviar das rochas e da gente estrangeira.</p></div>
-
-          <div><p>Em frente a Garganta do Diabo nos encontramos. Paciente e vigilante do lado de fora, vi meus companheiros se entregarem à digestão para depois serem escarrados machucados.</p></div>
-
-          <div><p>Com os olhos de mil pássaros, vi Potira entrar em armadilha de gente, cabana de branco a que chamam capela. Lá fomos. Feito padre bondoso e curandeiro, o homem que ali estava se revelou predador. Fugimos.</p></div>
-
-          <div><p>Procurando respostas, com um ritual simples e poderoso unidos adentramos de baixo da água no mundo do sono. Para prosseguir, a palavra não sumiu de nossa boca. De onça a urso encontramos também duas crianças kalapalo, por nós então libertas. Saindo do fundo do rio feito névoa, elas seguiram seu rumo e nós o nosso.</p></div>
-
-          <div><p>Os pinhões ausentes e a fome batia. Um macaco caçado por misericórdia pediu. Nos mostrou dois bebês em troca de sua vida. Eram filhas duma Mulher que já não tinha povo nem nome e que engravidou dum branco e de Jaguareté.</p></div>
-
-          <div><p>Por nosso grupo foram educadas e rapidamente cresciam. Contei a elas que em escolhas difíceis deveriam seguir o que o sopro interior lhes dizia; que meu caminho era encontrar um lar que já não existia; que minha missão era, como iangrê e maracá, cuidar da floresta e do espírito. Cada história, cada escolha, cada ensinamento as fazia amadurecer.</p></div>
-
-          <div><p>Encontramos Jaguareté. Em presença dele e com o sumiço de tantos pássaros vermelhos, virei osso, pele e carne. Dele tomamos uma bebida que nos deu velocidade e força. Procuramos a Mulher.</p></div>
-          <div><p>Na garganta do diabo, encontramos a Mulher sem nome. </p></div>
-          <div><p>Ela nos revelou tudo: a bebida de jaguareté era sangue venenoso; fugiu do jaguareté, uma criatura grosseira; fugiu de seu povo por divergir de sua cultura; Abominava o ritual da menina moça;  sequestrou os pinhões por causa disso; ou esse rito acabava ou o mundo acabava sem pinhões;</p></div>
-
-          <div><p>Seguimos. Encontramos sapos que nos vacinaram contra o veneno. Seus dilemas éticos nutriram as duas garotas. Maduras, elas decidem rejeitar o ritual da menina moça e fundar um novo povo só de mulheres que, similar aos jesuítas solitários, não iam se casar.</p></div>
-          <div><p>Contamos a história das indígenas guerreiras, depois chamadas de amazonas.</p></div>
-          <div><p>As mulheres dos povos se separaram dos homens e geraram seu próprio povo, o que gerou revolta. Sangue estava para rolar, mas a conversa falou mais alto. Um acordo foi feito. As mulheres não voltariam para suas tribos nem engravidariam. Tal como as rãs, os bebês nasceriam em árvores, assegurando a descendência dos povos. A árvore escolhida, araucária. Os homens seriam guiados para ela no tempo certo e depositariam as suas sementes. Um ritual em conjunto tempos depois se seguiria, e do corte da árvore nasceriam muitas crianças. Me comprometi a guiar os homens às árvores no tempo certo.</p></div>
-          <div><p>A Mulher gostou e libertou os pinhões. Uma gralha azul surgiu para anunciar a boa nova. Eu finalmente pude voltar às copas das árvores. </p></div>
-        </div>
-
-      </main> */}
+      </main >
 
 
-    </div>
+    </div >
   )
 }
