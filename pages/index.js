@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Catiamamba | das Araucárias</title>
+        <title>Catiamamba | O Resgate das Araucárias</title>
         <meta name="description" content="Narrativa RPG" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/redcardinal.svg" />
       </Head>
 
       <main className={styles.main}>
@@ -32,12 +32,12 @@ export default function Home() {
               <p data-aos-offset="200" data-aos="fade-up"
                 data-aos-duration="3000">Lá no alto das árvores ela podia ser vista. </p>
               <p data-aos="fade-up"
-                data-aos-duration="3000">Sua cor parecia a de um <span data-aos-delay="1000" data-aos='fade' data-aos-duration="2000" className={styles.sangue}>por do sol sangrento</span>. </p>
+                data-aos-duration="3000">Sua cor parecia a de um <span data-aos-delay="1000" data-aos='fade' data-aos-duration="2000" className={styles.sangue}>pôr do sol sangrento</span>. </p>
             </div>
 
             <div className={styles.marcador} >
               <p data-aos="fade-up"
-                data-aos-duration="3000">Nenhuma flecha à alcançava. </p>
+                data-aos-duration="3000">Nenhuma flecha a alcançava. </p>
               <p data-aos="fade-up"
                 data-aos-duration="3000">Nenhuma mão humana a segurava. </p>
             </div>
